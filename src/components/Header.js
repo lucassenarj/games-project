@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-const Header = () => {
-    return <Text>Title</Text>
+const Header = (props) => {
+    return <Text>{props.title}</Text>
 }
 
 export default Header;
